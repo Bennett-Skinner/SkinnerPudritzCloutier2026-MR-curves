@@ -1,0 +1,25 @@
+PHASES:
+H/He (-11):
+All H/He: -11 (Everything done in one table, phase transitions not exposed to planetary solver)
+
+Water (-10 to 5) (From AQUA):
+Ice-Ih: -1
+Ice-II: -2
+Ice-III: -3
+Ice-V: -5
+Ice-VI: -6
+Ice-VII: -7
+Ice-X: -10        
+Vapour: 3
+Liquid: 4
+Supercritical/superionic: 5
+
+Mantle (6 to 9):
+Perple_X: 6
+Post-Perovskite: 7
+Dissociated: 8
+Liquid: 9
+
+Iron (10 to 11):
+Solid: 10
+Liquid: 11
