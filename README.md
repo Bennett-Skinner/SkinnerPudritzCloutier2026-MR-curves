@@ -31,8 +31,8 @@ solar)<br/>
 transit_radius - Radius at an optical depth of 2/3 for a transiting ray of light (Earth radii) (THIS IS PROBABLY THE RADIUS YOU WANT, but read section 2.8)<br/>
 twothirdsopt_radius - Radius at an optical depth of 2/3 for a ray of light travelling directly to the center of the planet (Earth radii)
 condensed_radius - Layer at which planet is made of condensed matter (Earth radii)<br/>
-diff_v_2000pa - (transit_radius-2000pa_radius)/transit_radius*100<br/>
-diff_v_100pa - (transit_radius-100pa_radius)/transit_radius*100<br/>
+diff_v_2000pa - (transit_radius-2000pa_radius)/transit_radius\*100<br/>
+diff_v_100pa - (transit_radius-100pa_radius)/transit_radius\*100<br/>
 inner_pressure - Pressure at center of model planet (GPa)<br/>
 inner_temperature - Temperature at center of model planet (K)<br/>
 Info (Validation):<br/>
@@ -44,7 +44,7 @@ T[K] - Temperature in Kelvin<br/>
 Optical_Depth[unitless] - Optical depth, as measured along a line 
 directly going to the planetary core<br/>
 density[kg/m3] - Density in kg/m3<br/>
-ad_grad[unitless] - Unitless adiabatic gradient, defined as adgrad = P/T*dT/dP<br/>
+ad_grad[unitless] - Unitless adiabatic gradient, defined as adgrad = P/T\*dT/dP<br/>
 opacity[m2/kg] - Opacity in m2/kg<br/>
 opacity_density[kg/m3] - The density from Freedman+2014 (if not in atmosphere, just the density). Note this is only present for inward planet profiles, not outward planet profiles.<br/>
 MgSiO3_melting[K] - Melting temeprature of mantle<br/>
