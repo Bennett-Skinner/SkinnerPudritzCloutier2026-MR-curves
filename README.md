@@ -1,5 +1,5 @@
 # SkinnerPudritzCloutier2026-MR-curves
-Mass-Radius Curves from Skinner, Pudritz, & Cloutier (2026, revision submitted to MNRAS) as well as validation planet profiles.<br/>
+Mass-Radius Curves from Skinner, Pudritz, & Cloutier (2026, accepted by MNRAS) as well as validation planet profiles.<br/>
 Formatting:<br/>
 File Structure: Each folder separates out groups of files, where in each folder only one free compositional parameter is varied (this mostly corresponds to each folder being graphs for a file in the paper). Within each folder, there are different sub-folders for each equilibrium teperature. Within each sub-folder are the files, with names formatted many_radii_WX_Y_Z.txt, where W is the value of the varied compositional parameter, X is the name of the varied compositional parameter, Y is the value of the parameters for the rest of the composition (generally Earthlike), and Z is the temperature. If Z is omitted, it has Earth's temperature. The earth-like isocomposition curve is found under WMF curves as a WMF of 0. In addition, one folder contains all the validation profiles. This folder contains sub-folders for each object in the validation sample, with their titles reflecting any changes made from the fiducial case. There are two folders for each case: one integrating inwards to the fitting mass, one integrating ouwards to the fitting mass. The full planet profile is the concatenation of the two of them, although note that each thread includes the fitting mass and thus plots may look strange if one of the two datapoints at the same mass is not removed.<br/>
 Info (M-R Curves):<br/>
@@ -36,6 +36,7 @@ diff_v_100pa - (transit_radius-100pa_radius)/transit_radius\*100<br/>
 inner_pressure - Pressure at center of model planet (GPa)<br/>
 inner_temperature - Temperature at center of model planet (K)<br/>
 Info (Validation):<br/>
+All of the above information is available for the validation sample as well. In addition, profiles are available. See Zenodo repository for profiles of modelled planets outside of validation sample.<br/>
 The columns are as follows:<br/>
 m[Frac_of_total] - Mass as a fraction of total planetary radius<br/>
 r[R_e] - Radius in Earth radii<br/>
