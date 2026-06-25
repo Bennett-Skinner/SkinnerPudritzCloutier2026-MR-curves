@@ -16,7 +16,7 @@ Supercritical/superionic: 5
 
 Mantle (6 to 9):
 Perple_X: 6
-Post-Perovskite: 7
+Post-Perovskite and High-Pressure Phases (Mg2SiO4 and MgSi2O5) : 7
 Dissociated: 8
 Liquid: 9
 
